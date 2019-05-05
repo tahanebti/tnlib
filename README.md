@@ -172,6 +172,12 @@ Competitive Programming Library
 - [Algorithms]()
 	- [Recursion]()
 	- [randomize]()
+		- rand / seed
+		- default_random_engin
+		- uniform_distribution
+		- random_generator_wrapper
+		- shuffle
+		- random_shuffle
 	- [sorting]()
 	- [searching]()
 	- [divide_and_conquer]()
@@ -190,9 +196,93 @@ Competitive Programming Library
 			- [permutation]()
 			- [combination]()
 	- [geometry]()
+		- Geometry Library (2D)
+		- Point (2D)
+		- Line (2D)
+		- Circle (2D)
+		- Triangle (2D)
+		- Rectangle (2D)
+		- Angles (2D)
+		- Distances (2D)
+		- Line Intersection (2D)
+		- Circle Intersection (2D)
+		- Polygon Sorting and Area
+		- Point-in-Polygon (Ray Casting)
+		- Convex Hull and Diametral Pair
+		- Minimum Enclosing Circle
+		- Closest Pair
+		- Segment Intersection Finding
+		- Convex Polygon Cut
+		- Polygon Intersection and Union
+		- Delaunay Triangulation (Simple)
+		- Delaunay Triangulation (Fast)
 	- [string]()
 	- [tree]()
+		- Binary Heap
+		- Randomized Mergeable Heap
+		- Skew Heap
+		- Pairing Heap
+		- Binary Search Tree
+		- Treap
+		- AVL Tree
+		- Red-Black Tree
+		- Splay Tree
+		- Size Balanced Tree
+		- Interval Treap
+		- Hash Map
+		- Skip List
+		- Sparse Table (Range Minimum Query)
+		- Square Root Decomposition
+		- Segment Tree (Point Update)
+		- Segment Tree (Range Update)
+		- Segment Tree (Compressed)
+		- Implicit Treap
+		- Quadtree (Point Update)
+		- Quadtree (Range Update)
+		- 2D Segment Tree
+		- 2D Range Tree
+		- K-d Tree (2D Range Query)
+		- K-d Tree (Nearest Neighbor)
+		- R-Tree (Nearest Segment)
+		- Fenwick Tree (Simple)
+		- Fenwick Tree (Range Update, Point Query)
+		- Fenwick Tree (Point Update, Range Query)
+		- Fenwick Tree (Range Update, Range Query)
+		- Fenwick Tree (Compressed)
+		- 2D Fenwick Tree (Simple)
+		- 2D Fenwick Tree (Compressed)
+		- Disjoint Set Forest (Simple)
+		- Disjoint Set Forest (Compressed)
+		- Lowest Common Ancestor (Sparse Table)
+		- Lowest Common Ancestor (Segment Tree)
+		- Heavy Light Decomposition
+		- Link-Cut Tree	
 	- [graph]()
+		- Graph Class and Depth-First Search
+		- Topological Sorting (DFS)
+		- Eulerian Cycles (DFS)
+		- Unweighted Tree Centers (DFS)
+		- Shortest Path (BFS)
+		- Shortest Path (Dijkstra's)
+		- Shortest Path (Bellman-Ford)
+		- Shortest Path (Floyd-Warshall)
+		- Strongly Connected Components (Kosaraju's)
+		- Strongly Connected Components (Tarjan's)
+		- Bridges, Cut-points, and Biconnectivity
+		- Minimal Spanning Tree (Prim's)
+		- Minimal Spanning Tree (Kruskal's)
+		- Max Flow (Ford-Fulkerson)
+		- Max Flow (Edmonds-Karp)
+		- Max Flow (Dinic's)
+		- Max Flow (Push-Relabel)
+		- Backtracking - Max Clique (Bron-Kerbosch)
+		- Backtracking - Graph Coloring
+		- Maximum Bipartite Matching (Kuhn's)
+		- Maximum Bipartite Matching (Hopcroft-Karp)
+		- Maximum Graph Matching (Edmonds's)
+		- Shortest Hamiltonian Cycle (TSP)
+		- Shortest Hamiltonian Path
+
 	- [STL Algorithms]()
 		- [non-modifing]()
 			- all_of 
