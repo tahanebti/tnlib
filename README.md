@@ -1,2 +1,399 @@
 # tnlib
 Competitive Programming Library
+
+###Content
+- [Types](types)
+	- [fundamental_type]()
+		- [arithmetic_type]()
+			- [integral_type]()
+				- [bool]()
+				- [char]()
+					- [narrow char]()
+					- [wide_char]()
+				- short
+				- int
+				- long	
+			- [floating_points]()
+				- [float]()
+				- [double]()
+			- [size_type]()
+				- size_t
+			- [difference_type]()
+				- ptrdiff_t		
+	- [compound_type]()
+		- [reference_type]()
+			- lvalue reference
+			- rvalue reference
+		- [pointer_type]()
+			- [pointer_to_null]()
+			- [pointer_to_void]()
+			- [pointer_to_value]()
+			- [pointer_to_function]()
+				- [callback]()
+				- [dispatcher]()
+			- [pointer_to_object]()
+			- [pointer_to_member_type]()
+				- [pointer_to_member_type]()
+					- [pointer_to_data_member = delegate]()
+					- [pointer_to_member_function]()
+		- [arithmetic_pointer]()
+			- [array_type]()
+			- [string_type]()
+		- [smart pointer]()
+			- [unique_ptr ]()
+			- [shared_ptr]()
+			- [weak_ptr]()
+			- [auto_ptr]()
+		- [function_type]()
+			- [default function]()
+			- [variadic function]()
+			- [lambda function]()
+		- [enumeration_type]()
+		- [class_type]()
+			- [union]()
+			- [struct / class ]()
+				- [rule of three]()
+				- [rule of five]()
+				- [rule of zero]()
+				- [encapsulation]()
+				- [polymorthism]()
+				- [inheritance]()
+				- [abstruction]()
+				- [interface]()
+				- [association]()
+				- [composition]()
+				- [agreggation]()
+				- [coupling]()
+				- [pimpl]()
+		- [wrapper_class]()
+			- [std::pair]()
+			- [std::tuple]()
+			- [numeric_library]()
+				- [std::ratio]()
+				- [std::complex]()
+				- [std::valarray]()	
+	- [deduction_type]()
+		- [auto]()
+	- [generic_type]()
+		- [preprocessor_type]()
+			- [macro]()
+			- [type_alias]()
+		- [template]()	
+- [Stream]()
+	- [type_info]()
+		- sizeof
+		- numeric_limits
+		- typeid
+		- aligned
+	- [type_traits]()
+	- [formats]()
+	- [check validations]()
+	- [casting & numeric conversion]()
+		- [implicit / explicit]()
+		- [const_cast]()
+		- [static_cast]()
+		- [dynamic_cast]()
+		- [interpreter_cast]()
+		- [auto_cast]()
+	- [assert & debugging]()
+		- assertion
+		- unit test
+		- debugging technique
+		- trace macro
+		- trace file
+		- finding memory leaks
+	- [handle exception]()
+		- tradetional error
+		- throw exception & try{}catch()
+		- exception handler
+	- [statments]()
+		- [conditional]()
+			- [if / if_else]()
+			- [switch]()
+		- [iterative]()
+			- [wihle / do_while]()
+			- [for / for_each]()
+	- [operator]()
+		- [binary operator]()
+		- [unary operator]()
+		- [ternary operator]()
+			- [prefix / postfix]()
+		- [logical operator]()
+		- [bitwise operator]()
+- [functional]()
+- [metaprogramming]()
+- [Collection]()
+	- [dynamic_array]()
+	- [linked_list]()
+		- [double linked list]()
+	- [Trees]()
+	    - [Fenwick Tree]()
+	    - [Segment Tree]() 
+	    - [Quad Tree]()
+  	- [Sparse Table]()
+  	- [Disjoint-Sets Union]()
+  	- [SQRT Decomposition]()	
+  	- [Mo's Algorithm]()
+  	- [Skiplist]()
+  	- [Indexable Skiplist]()
+  	- [Heavy-Light Decomposition]()
+  	- [Treaps]()
+  	- [STL Collection]()
+  		- adapter container
+  			- stack
+  			- queue
+  			- priorty_queue
+  		- sequence container
+  			- std::arrray
+  			- std::vector
+  			- std::deque
+  			- std::forward_list
+  			- std::list
+  		- associative_container
+  			- std::set / std::multiset
+  			- std::map / std::multimap
+  			- std::unorderd_set / std::unorderd_multiset
+  			- std::unorderd_map	/ std::unorderd_multimap	
+- [Predicate & functor]()
+	- [Predicate as function pointer]()
+	- [Predicate as functor]()
+	- [Predicate using delegation]()
+	- [Predicate using std::function]()
+	- [Predicate using std::bind]()
+	- [Predicate using lambda]()
+	- [Predicate using template]()
+- [Allocator]()
+- [Iterator]()
+	- [random_access_iterator]()
+	- [biderectional_iterator]()
+	- [forward_iterator]()
+	- [iterator_adapter]()
+	- [iterator_helper]()
+- [Algorithms]()
+	- [Recursion]()
+	- [randomize]()
+	- [sorting]()
+	- [searching]()
+	- [divide_and_conquer]()
+		- partition
+		- merge
+	- [dynamic_programming]()
+		- button-up memozation
+		- top-down tabulation
+	- [greedy]()
+	- [backtrack]()
+	- [bitwise]()
+	- [math]()
+		- [digits]()
+		- [number theory]()
+		- [combinatoris]()
+			- [permutation]()
+			- [combination]()
+	- [geometry]()
+	- [string]()
+	- [tree]()
+	- [graph]()
+	- [STL Algorithms]()
+		- [non-modifing]()
+			- all_of 
+			- any_of 
+			- none_of 
+			- for_each
+			- find
+			- find_if
+			- find_if_not 
+			- find_end
+			- find_first_of
+			- adjacent_find
+			- count
+			- count_if
+			- mismatch
+			- equal
+			- is_permutation 
+			- search
+			- search_n
+		- [modifing]()
+			- copy
+			- copy_n 
+			- copy_if 
+			- copy_backward
+			- move 
+			- move_backward 
+			- swap
+			- swap_ranges
+			- iter_swap
+			- transform
+			- replace
+			- replace_if
+			- replace_copy
+			- replace_copy_if
+			- fill
+			- fill_n
+			- generate
+			- generate_n
+			- remove
+			- remove_if
+			- remove_copy
+			- remove_copy_if
+			- unique
+			- unique_copy
+			- reverse
+			- reverse_copy
+			- rotate
+			- rotate_copy
+		- [partition]()
+			- is_partition
+			- stable_partition
+			- partition_copy
+			partation_point
+		- [merging]()
+			- merge
+			- implace_merge
+			- includes
+			- set_unions
+			- set_intersections
+			- set_difference
+			- set_symmetric_difference
+		- [sort]()
+			- sort
+			- stable_sort
+			- partial_sort
+			- partial_sort_copy
+			- is_sorted
+			- is_sorted_until
+			- nth_elements
+		- [search]()
+			- lower_bound
+			- upper_bound
+			- equel_range
+			- binary_range
+		- [heap]()
+			- push_heap
+			- pop_heap
+			- make_heap
+			- sort_heap
+			- is_heap
+			- is_heap_until	
+		- [numeric]()
+			- min_element
+			- max_element
+			- minmax_element
+			- accumulate
+			- adjacent_difference
+			- inner_product
+			- partial_sum
+			- iota	
+		- [others]()
+			- lexicographical_compare
+			- next_permutation
+			- prev_permutation
+
+- [concurrency]()
+- [SOLID]()
+	- [SRP – Single Responsibility Principle]()
+	- [OCP – Open/Closed Principle]()
+	- [LSP – Liskov Substitution Principle]()
+	- [ISP – Interface Segregation Principle]()
+	- [DIP – Dependency Inversion Principle]()
+	- [DRY – Don't Repeat Yourself]()
+	- [YAGNI – You Aren't Gonna Need It]()
+	- [KISS – Keep It Simple, Stupid]()
+- [Design Pattern]()
+	- [creational]()
+		- [beginner]()
+			- [factory method]()
+			- [factory kit]()
+			- prototype
+			- proporty
+			- singelton
+			- module
+			- monoState
+			- object pool (concurreny)
+			- object mother
+			- value object
+		- intermediate
+			- abstruct factory
+			- builder
+			- Setp builder
+			- twin
+	- structural pattern
+		- beginner
+			- adapter
+			- decorator
+			- event aggregator
+			- facad
+			- proxy
+			- service locator
+		- intermediate
+			- abstract document :  flexible way to organize domain in tree structure
+			- ambasador
+			- bridge
+			- composite
+			- flyweight
+	- behaviral pattern
+		- beginner
+			- delegation
+			- dependency injection
+			- future togle
+			- iterator
+			- null object
+			- observe
+			- specification
+			- strategy
+			- template
+			- throttling
+		- intermediate
+			- visitor
+			- asyinc visitor
+			- chain of responsabilty
+			- extension object
+			- intercepting filter
+			- interpreter
+			- mediator
+			- memonto
+			- state
+	- concurrency pattern
+		- Beginner
+			- balken
+			- double check lock
+			- guarded suspension
+		- intermediate
+			- async method invocation
+			- half sync / half async
+			- mutex
+			- producer / consumer
+			- promise
+			- read writer lock
+			- semaphore
+			- thread local storage
+			- thread pool
+		- expert
+			- reactor
+	- testing pattern
+		- page object
+	- others idioms patterns
+		- RAII
+		- caching
+		- callback
+		- dirty flag
+		- double dispatch
+		- lazy loading
+		- fluent interface
+		- marker interface
+		- mute idiom
+- architecture pattern : high level scope (how compoment are organized)
+	- Beginner 
+		- Data transfer object
+		- partial responce
+		- unit of work
+	- intermediate
+		- API Gateway 
+		- CQRS
+		- data bus
+		- event driven architecture
+		- layred
+		- serverless
+		- service layer
+	- Expert
+		- hexagonal architecture
+		- naked object
