@@ -1,4 +1,9 @@
 /**
+       format
+       Author : Taha Nebti
+       github : github.com/tahanebti
+
+
       Notes : 
 
       Using Streams
@@ -7,8 +12,15 @@
       cerr An unbuffered output stream, writes data to the “error console”
       clog A buffered version of cerr.
 
-    **/
-      
+**/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
           bool boolValue = true;
           cout << "Value \"" << std::boolalpha << boolValue
                << "\" was parsed as " << std::noboolalpha << boolValue;
@@ -64,3 +76,6 @@
                << "usd: " << std::setw(15) << std::put_money(367, true) << '\n'
                << "usd: " << std::setw(15)
               << std::setfill(' ') << std::put_money(367, false) << '\n';
+  return 0;
+}
+      
