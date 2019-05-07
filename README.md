@@ -1,5 +1,5 @@
 # tnlib
-Competitive Programming Library
+Algorithms and data structures heavily used in programming competitions, implemented in C++.
 
 ###Content
 - [Types](types)
@@ -44,6 +44,7 @@ Competitive Programming Library
 			- [shared_ptr]()
 			- [weak_ptr]()
 			- [auto_ptr]()
+			- smartpointer wrapper implementation
 		- [function_type]()
 			- [default function]()
 			- [variadic function]()
@@ -123,9 +124,19 @@ Competitive Programming Library
 - [functional]()
 - [metaprogramming]()
 - [Collection]()
+	- fixed 1-D array
+		array implementation
+	- 2-D array : matrix
+		- matrix class implementation	
 	- [dynamic_array]()
+	- stack
+	- queue	
+	- deque
 	- [linked_list]()
-		- [double linked list]()
+		- single linked list
+		- double linked list
+		- circular single linked list
+		- circular double linked list
 	- [Trees]()
 	    - [Fenwick Tree]()
 	    - [Segment Tree]() 
@@ -163,6 +174,7 @@ Competitive Programming Library
 	- [Predicate using lambda]()
 	- [Predicate using template]()
 - [Allocator]()
+	- allocator implementation
 - [Iterator]()
 	- [random_access_iterator]()
 	- [biderectional_iterator]()
@@ -179,6 +191,12 @@ Competitive Programming Library
 		- shuffle
 		- random_shuffle
 	- [sorting]()
+		- bubble sort
+		- selection sort
+		- insertion sort
+		- merge sort
+		- quick sort
+		- heap sort
 	- [searching]()
 	- [divide_and_conquer]()
 		- partition
@@ -194,6 +212,7 @@ Competitive Programming Library
 		- [number theory]()
 		- [combinatoris]()
 			- [permutation]()
+				- permutation wrapper
 			- [combination]()
 	- [geometry]()
 		- Geometry Library (2D)
@@ -216,7 +235,9 @@ Competitive Programming Library
 		- Polygon Intersection and Union
 		- Delaunay Triangulation (Simple)
 		- Delaunay Triangulation (Fast)
+		- all geomethry implementation reviews
 	- [string]()
+		- my C-style function implementation
 	- [tree]()
 		- Binary Heap
 		- Randomized Mergeable Heap
