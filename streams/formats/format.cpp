@@ -21,7 +21,32 @@ using namespace std;
 int main()
 {
 
-          bool boolValue = true;
+//Set integral representation: default: dec
+cout<< dec << 0xF; //prints 16
+cout<< hex << 16; //prints 0xF
+cout<< oct << 8; //prints 10  
+
+//bit representation
+std::cout << std::bitset<32>(3.45f); // (32: num. of bits)
+// print 01000000010111001100110011001101
+
+//Print true/false text:
+cout<< boolalpha << 1; //prints true
+cout<< boolalpha << 0; //prints false
+
+//Set decimal precision: default: 6
+cout << setprecision(2) << 3.538; ! 3.54
+
+//Set float representation: default: std::defaultfloat
+cout << setprecision(2) << fixed << 32.5;       // 32.50
+cout << setprecision(2) << scientific << 32.5; // 3.25e+01
+
+//Set alignment: default: right
+cout << right << setw(7) << "abc" << "##"; // ____abc##
+cout << left << setw(7) << "abc" << "##"; // abc___##
+//(better than using tab nt)
+
+         bool boolValue = true;
           cout << "Value \"" << std::boolalpha << boolValue
                << "\" was parsed as " << std::noboolalpha << boolValue;
 

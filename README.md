@@ -1,5 +1,5 @@
 # tnlib
-Algorithms and data structures heavily used in programming competitions, implemented in C++.
+C/C++ notes , Algorithms and data structures heavily used in programming competitions, implemented in C++.
 
 ###Content
 - [Types](types)
@@ -53,13 +53,43 @@ Algorithms and data structures heavily used in programming competitions, impleme
 		- [class_type]()
 			- [union]()
 			- [struct / class ]()
+				- struct vs class
+				- Constructor
+					- Default constructor
+					- Class initialization
+					- Uniform initialization
+					- Delegate constructor
+					- explicit constructor
+				- Copy constructor
+				- move constructor
+				- destructor
+				- this 
+				- static
+				- const 
+				- mutable
+				- using 
+				- friend
+				- delete
 				- [rule of three]()
 				- [rule of five]()
 				- [rule of zero]()
 				- [encapsulation]()
 				- [polymorthism]()
-				- [inheritance]()
-				- [abstruction]()
+					- Function binding
+					- virtual method
+					- override/final keywords
+					- virtual - common errors
+					- Pure virtual methods
+					- Abstract class and interface
+				- [operator overloading]()
+					- Operator <<
+					- Operator operator()
+					- Operator operator=
+				- [Special Objects]()
+					- Aggregate
+					- Trivial class
+					- Standard-layout class
+					- Plain old data type
 				- [interface]()
 				- [association]()
 				- [composition]()
@@ -88,6 +118,12 @@ Algorithms and data structures heavily used in programming competitions, impleme
 		- aligned
 	- [type_traits]()
 	- [formats]()
+		- istream / ostream		
+	- [persistents]()
+		- file
+			- ifstream / ofstream
+			- file system
+		- db
 	- [check validations]()
 	- [casting & numeric conversion]()
 		- [implicit / explicit]()
@@ -111,7 +147,7 @@ Algorithms and data structures heavily used in programming competitions, impleme
 		- [conditional]()
 			- [if / if_else]()
 			- [switch]()
-		- [iterative]()
+		- [iteration]()
 			- [wihle / do_while]()
 			- [for / for_each]()
 	- [operator]()
@@ -121,8 +157,55 @@ Algorithms and data structures heavily used in programming competitions, impleme
 			- [prefix / postfix]()
 		- [logical operator]()
 		- [bitwise operator]()
+
 - [functional]()
 - [metaprogramming]()
+	- Function Templates
+		- Template parameters
+		- Default parameters
+		- Template specialization
+		- Template overloading
+	- Type Deduction
+		- Pass-by-Reference
+		- Pass-by-Pointer
+		- Pass-by-Value
+		- Array type deduction
+	- Compile-Time Utilities
+		- static assert
+		- decltype
+		- declval
+		- using
+	- Type Traits
+		- Type trait library
+		- Type manipulation
+		- Type Relation and Transformation
+	- Class Templates
+		- Full/Partial specialization
+		- Class + function template specialization
+		- virtual
+		- friend
+		- Template dependent names
+		- Template template arguments
+		- Template variable
+	- Template Meta-Programming
+		- Factorial
+		- Log
+		- Unroll
+	- SFINAE : Substitution Failure Is Not An Error
+		- Function
+		- Class
+	- Variadic Template
+		- Parameter recursion
+		- Folding expression
+		- sizeof...
+		- Meta-programming
+		- Specialization
+	- STD Template Utility
+		- std::pair
+		- std::tuple
+		- std::variant
+		- std::optional
+		- std::any			
 - [Collection]()
 	- fixed 1-D array
 		array implementation
@@ -176,11 +259,23 @@ Algorithms and data structures heavily used in programming competitions, impleme
 - [Allocator]()
 	- allocator implementation
 - [Iterator]()
-	- [random_access_iterator]()
-	- [biderectional_iterator]()
-	- [forward_iterator]()
-	- [iterator_adapter]()
-	- [iterator_helper]()
+	Implement a Custom Iterator
+		- Iterator semantic
+			- input / output iterator
+			- forward iterator
+			- bidirectional iterator
+			- random access iterator
+		- Implementation example
+	• Iterator Utility Methods
+		- Iterator operations
+			- std::advance
+			- std::next
+			- std::prev
+			- std::distance
+		- Range access methods
+			
+		- Iterator traits
+	
 - [Algorithms]()
 	- [Recursion]()
 	- [randomize]()
